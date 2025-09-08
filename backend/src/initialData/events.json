@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "resourceId": 1,
+    "name": "Mr Woods",
+    "guests": 3,
+    "startDate": "2025-09-05",
+    "endDate": "2025-09-07"
+  },
+  {
+    "id": 2,
+    "resourceId": 1,
+    "guests": 2,
+    "name": "Ms Davis",
+    "startDate": "2025-09-09",
+    "endDate": "2025-09-11"
+  },
+  {
+    "id": 3,
+    "resourceId": 2,
+    "guests": 4,
+    "name": "Bonnie and Clyde",
+    "startDate": "2025-09-05",
+    "endDate": "2025-09-10"
+  },
+  {
+    "id": 4,
+    "resourceId": 3,
+    "name": "Smith Family",
+    "guests": 5,
+    "startDate": "2025-09-06",
+    "endDate": "2025-09-08"
+  },
+  {
+    "id": 5,
+    "resourceId": 4,
+    "guests": 1,
+    "name": "K. West",
+    "startDate": "2025-09-06",
+    "endDate": "2025-09-08"
+  },
+  {
+    "id": 6,
+    "resourceId": 8,
+    "guests": 2,
+    "name": "Larry Bird",
+    "startDate": "2025-09-07",
+    "endDate": "2025-09-10"
+  },
+  {
+    "id": 7,
+    "startDate": "2025-09-06",
+    "endDate": "2025-09-13",
+    "guests": 2,
+    "name": "John & Jenny Doe",
+    "resourceId": 6
+  },
+  {
+    "id": 8,
+    "startDate": "2025-09-08",
+    "endDate": "2025-09-13",
+    "guests": 2,
+    "name": "The Johnsons",
+    "resourceId": 7
+  },
+  {
+    "id": 9,
+    "startDate": "2025-09-17",
+    "endDate": "2025-09-18",
+    "guests": 2,
+    "name": "K. Jackson",
+    "resourceId": 6
+  }
+]

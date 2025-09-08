@@ -1,0 +1,89 @@
+:root {
+    --dark-gray: #505057;
+}
+
+.b-sch-event:not(.b-milestone) {
+    border-radius : 2em;
+}
+
+.b-sch-event:not(.b-milestone) .b-sch-event-content {
+    display         : flex;
+    flex            : 1;
+    justify-content : center;
+    align-items     : center;
+    padding         : 0 0.3em;
+}
+
+.b-sch-event:not(.b-milestone) .b-sch-event-content i {
+    margin-inline-start : auto;
+    margin-inline-end   : 0;
+}
+
+.b-sch-event:not(.b-milestone) .b-sch-event-content sup {
+    margin-inline-start : 0.3em;
+}
+
+.b-sch-event:not(.b-milestone):before,
+.b-sch-event:not(.b-milestone):after {
+    --handle-height      : 40%;
+    --handle-align-inset : 30%;
+    --handle-inset       : 5px;
+}
+
+.b-resource-info .b-resource-avatar {
+    border-radius     : 7px;
+    height            : 3em;
+    width             : auto;
+    margin-inline-end : 1em;
+}
+
+.b-horizontaltimeaxis .b-sch-header-timeaxis-cell {
+    border : 0;
+}
+
+.b-horizontaltimeaxis .b-lowest .b-sch-header-timeaxis-cell {
+    font-weight : bold;
+}
+
+.b-horizontaltimeaxis .b-lowest .b-sch-header-timeaxis-cell.b-sch-dayheadercell-6,
+.b-horizontaltimeaxis .b-lowest .b-sch-header-timeaxis-cell.b-sch-dayheadercell-0 {
+    color : #777;
+}
+
+.b-sch-header-timeaxis-cell {
+    font-weight : bold;
+    color       : #999;
+}
+
+.b-lowest .b-sch-header-timeaxis-cell {
+    font-weight : bold;
+}
+
+.b-lowest .b-sch-header-timeaxis-cell.b-sch-dayheadercell-6,
+.b-lowest .b-sch-header-timeaxis-cell.b-sch-dayheadercell-0 {
+    color : #444;
+}
+
+.b-timeline-subgrid .shaded {
+    border-inline-end : 2px solid red;
+    background-color  : rgba(250, 250, 250, 0.55);
+}
+
+.b-grid-header .shaded {
+    height     : 100%;
+    top        : 0;
+    background : rgb(243, 244, 245, 0.7);
+}
+
+.b-sch-event-tooltip.b-floating,
+.b-sch-event-tooltip.b-floating .b-panel-body-wrap {
+    border-radius : 6px;
+}
+
+.b-sch-event-tooltip.b-floating h4 {
+    margin : 0 0 0.3em 0;
+}
+
+.b-sch-event-tooltip.b-floating h4:not(:first-child) {
+    margin-top : 1em;
+}
