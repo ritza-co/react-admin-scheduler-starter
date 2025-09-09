@@ -24,7 +24,7 @@ The following npm packages were added:
 Install the dependencies in the root, frontend and backend, by running the following command from the root directory: 
 
 ```sh
-npm install-all
+npm run install-all
 ```
 
 ## Create and populate a local SQLite database
