@@ -4,6 +4,12 @@
     "private": true,
     "type": "module",
     "dependencies": {
+        "@bryntum/core-thin": "^6.3.1",
+        "@bryntum/grid-thin": "^6.3.1",
+        "@bryntum/scheduler-thin": "^6.3.1",
+        "@react-admin/ra-scheduler": "^1.1.1",
+        "ra-data-simple-rest": "^5.11.1",
+        "ra-language-french": "^5.11.1",
         "react": "^18.0.0",
         "react-dom": "^18.2.0",
         "react-router": "^6.1.0",
